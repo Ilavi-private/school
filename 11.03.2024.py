@@ -7,7 +7,7 @@ taskify.config(timer=True)
 def task1():
     counter = 0
 
-    with open("24-191.txt", 'r') as file:
+    with open("text_files/24-191.txt", 'r') as file:
         data = file.readline()
 
     data = data.split('A')
@@ -23,7 +23,7 @@ def task1():
 def task2():
     counter = 0
 
-    with open("24-191.txt", 'r') as file:
+    with open("text_files/24-191.txt", 'r') as file:
         data = file.readline()
 
     data = data.split('A')
@@ -43,7 +43,7 @@ def task3():
     counter = 0
     max_count = 0
 
-    with open("24-213.txt", 'r') as file:
+    with open("text_files/24-213.txt", 'r') as file:
         data = file.readline()
 
     i = 0
@@ -65,7 +65,7 @@ def task4():
     counter = 0
     max_count = 0
 
-    with open("24-213.txt", 'r') as file:
+    with open("text_files/24-213.txt", 'r') as file:
         data = file.readline()
 
     i = 0
@@ -86,7 +86,7 @@ def task5():
     counter = 0
     max_count = 0
 
-    with open("24.txt", 'r') as file:
+    with open("text_files/24.txt", 'r') as file:
         data = file.readline()
 
     for i in range(1, len(data) - 1):
@@ -103,7 +103,7 @@ def task5():
 def task6():
     max_count = 0
 
-    with open("24-173.txt", 'r') as file:
+    with open("text_files/24-173.txt", 'r') as file:
         data = file.readline()
 
     prev = ''
@@ -124,7 +124,7 @@ def task6():
 def task7():
     max_count = 0
 
-    with open("171.txt", 'r') as file:
+    with open("text_files/171.txt", 'r') as file:
         data = file.readlines()
 
     sammw_count = 0
@@ -149,7 +149,7 @@ def task7():
 def task7():
     max_count = 0
 
-    with open("171.txt", 'r') as file:
+    with open("text_files/171.txt", 'r') as file:
         data = file.readlines()
 
     sammw_count = 0
