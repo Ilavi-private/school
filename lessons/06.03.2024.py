@@ -1,6 +1,6 @@
 from re import findall
 
-import taskify
+from middleware import taskify
 
 
 # taskify.config(timer=True)
